@@ -1,1 +1,1 @@
-# mastodon-verification
+# fediverse-verification
