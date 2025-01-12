@@ -4,7 +4,7 @@ This repository is used to host an HTML file for verifying CRXM on various Fediv
 
 ## Purpose
 
-The verification process involves adding `<link rel="me">` tags in an HTML file hosted here. These links allow platforms like Mastodon, Friendica, PixelFed, and Lemmy to confirm that my profiles are associated with this repository or domain. 
+The verification process involves adding `<link rel="me">` tags in an HTML file hosted here. These links allow platforms like Mastodon, Friendica, PixelFed, and Lemmy to confirm that CRXM is associated with this repository or domain. 
 
 ## How It Works
 
