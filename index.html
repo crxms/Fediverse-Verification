@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Links</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .content {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <p>Follow me on:</p>
-    <ul>
-        <li><a href="https://mastodon.social/@yourusername" rel="me">Mastodon</a></li>
-        <li><a href="https://friendica.example/@yourusername" rel="me">Friendica</a></li>
-        <li><a href="https://pixelfed.social/@yourusername" rel="me">PixelFed</a></li>
-        <li><a href="https://lemmy.example/u/yourusername" rel="me">Lemmy</a></li>
-    </ul>
-    <p>Visit my main site: <a href="https://crxm.org">crxm.org</a></p>
+    <div class="content">
+        <p>Follow me on:</p>
+        <ul style="list-style-type: none; padding: 0;">
+            <li><a href="https://mastodon.social/@yourusername" rel="me">Mastodon</a></li>
+            <li><a href="https://friendica.example/@yourusername" rel="me">Friendica</a></li>
+            <li><a href="https://pixelfed.social/@yourusername" rel="me">PixelFed</a></li>
+            <li><a href="https://lemmy.example/u/yourusername" rel="me">Lemmy</a></li>
+        </ul>
+        <p>Visit my main site: <a href="https://crxm.org">crxm.org</a></p>
+    </div>
 </body>
 </html>
