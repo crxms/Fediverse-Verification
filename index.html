@@ -1,46 +1,89 @@
 <!DOCTYPE html>
+<!-- Declares the document type as HTML5 -->
+
 <html lang="en">
+<!-- Begins the HTML document and sets the language attribute to "en" for English -->
+
 <head>
+    <!-- Contains metadata and resources for the document -->
     <meta charset="UTF-8">
+    <!-- Specifies the character encoding for the document as UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Links</title>
+    <!-- Ensures the page scales correctly on mobile devices -->
+    <title>CRXM: Social Links</title>
+    <!-- Sets the title of the webpage (displayed on the browser tab) -->
     <style>
+        /* Begins internal CSS styling */
         body {
             display: flex;
+            /* Makes the body a flex container for layout purposes */
             justify-content: center;
+            /* Horizontally centers the content */
             align-items: flex-start; /* Keeps content near the top */
+            /* Aligns items at the top of the container */
             height: 100vh;
+            /* Sets the height of the body to fill the entire viewport height */
             margin: 0;
+            /* Removes default margin from the body */
             font-family: Arial, sans-serif;
+            /* Sets the font for the document to Arial, with a fallback to sans-serif */
             background-color: #f9f9f9;
+            /* Sets a light gray background color for the body */
             padding-top: 50px; /* Adjust this value for fine-tuning position */
+            /* Adds space between the top of the viewport and the content */
         }
         .content {
+            /* Styles for the container holding the main content */
             text-align: center;
+            /* Centers text horizontally within the container */
         }
         ul {
+            /* Styles for the unordered list */
             list-style-type: none;
+            /* Removes default bullet points from list items */
             padding: 0;
+            /* Removes default padding from the list */
         }
         a {
+            /* Styles for anchor (link) elements */
             text-decoration: none;
+            /* Removes the default underline from links */
             color: blue;
+            /* Sets the color of the links to blue */
         }
         a:hover {
+            /* Styles applied when the user hovers over a link */
             text-decoration: underline;
+            /* Adds an underline to the link on hover */
         }
     </style>
 </head>
+<!-- Closes the head section -->
+
 <body>
+    <!-- Begins the body section, which contains the content visible on the webpage -->
     <div class="content">
+        <!-- A container for the main content of the page -->
         <p>Follow me on:</p>
+        <!-- A paragraph prompting the user to follow on social platforms -->
         <ul>
+            <!-- Begins an unordered list -->
             <li><a href="https://mastodon.social/@CRXM" rel="me">Mastodon</a></li>
+            <!-- A list item containing a link to a Mastodon profile; "rel='me'" indicates the link is a verified profile -->
             <li><a href="https://friendica.world/profile/crxm" rel="me">Friendica</a></li>
+            <!-- A list item containing a link to a Friendica profile -->
             <li><a href="https://pixelfed.social/crxm" rel="me">PixelFed</a></li>
+            <!-- A list item containing a link to a PixelFed profile -->
             <li><a href="https://lemm.ee/u/crxm" rel="me">Lemmy</a></li>
+            <!-- A list item containing a link to a Lemmy profile -->
         </ul>
+        <!-- Ends the unordered list -->
         <p>Visit my main site: <a href="https://crxm.org">crxm.org</a></p>
+        <!-- A paragraph with a link to the main site -->
     </div>
+    <!-- Closes the content container -->
 </body>
+<!-- Ends the body section -->
+
 </html>
+<!-- Closes the HTML document -->
