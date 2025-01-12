@@ -17,7 +17,7 @@ The verification process involves adding `<link rel="me">` tags in an HTML file 
 3. **Example HTML**:
    Here’s an example of the content in the verification file:
    ```html
-   <link rel="me" href="https://mastodon.example/@yourusername">
-   <link rel="me" href="https://friendica.example/profile/yourusername">
-   <link rel="me" href="https://pixelfed.example/@yourusername">
+   <link rel="me" href="https://mastodon.social/@yourusername">
+   <link rel="me" href="https://friendica.world/profile/yourusername">
+   <link rel="me" href="https://pixelfed.social/@yourusername">
    <link rel="me" href="https://lemm.ee/u/yourusername">
