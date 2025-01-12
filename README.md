@@ -1,6 +1,6 @@
 # Fediverse Verification Repository
 
-This repository is used to host an HTML file for verifying my profiles on various Fediverse platforms, including Mastodon, Friendica, PixelFed, and Lemmy (via Lemm.ee), using `rel="me"` links.
+This repository is used to host an HTML file for verifying CRXM on various Fediverse platforms, including Mastodon, Friendica, PixelFed, and Lemmy (via Lemm.ee), using `rel="me"` links.
 
 ## Purpose
 
